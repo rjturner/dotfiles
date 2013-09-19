@@ -11,6 +11,12 @@ install
 1. Set up SSH keyless login
 2. git clone git@github.com:rjturner/dotfiles.git
 
+local
+-----
+
+All configuration files source ~/.NAME.local for host-specific, experimental,
+or non-versioned configurations.
+
 credits
 -------
 
