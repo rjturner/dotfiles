@@ -10,3 +10,9 @@ install
 
 1. Set up SSH keyless login
 2. git clone git@github.com:rjturner/dotfiles.git
+
+credits
+-------
+
+Some code is borrowed or inspired by https://github.com/thoughtbot/dotfiles
+under the MIT license.
