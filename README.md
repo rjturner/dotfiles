@@ -16,9 +16,9 @@ vim plugins
 
 Install new vim plugins thus:
 
-    1. cd ~/.vim/bundle
-    2. git submodule add <Clone URL/vim-plugin.git> <plugin>
-    3. git commit -m "Install <plugin> as git submodule"
+1. `cd ~/.vim/bundle`
+2. `git submodule add <Clone URL/vim-plugin.git> <plugin>`
+3. `git commit -m "Install <plugin> as git submodule"`
 
 local
 -----
