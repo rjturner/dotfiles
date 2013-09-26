@@ -29,11 +29,11 @@ or non-versioned configurations.
 notes
 -----
 
-Vim plugins are managed using Tim Pope's pathogen.git.  In particular, I
-install pathogen as its own submodule (using the procedure above) and then
-manually create a symlink in ~/.vim/autoload:
+Vim plugins are managed using Tim Pope's pathogen.git.  I install pathogen as
+its own submodule (using the procedure above) and include a runtime directive
+before calling `execute pathogen#infect()`
 
-    ln -s ../bundle/pathogen/autoload/pathogen.vim ~/.vim/autoload/pathogen.git
+    runtime bundle/pathogen/autoload/pathogen.vim
 
 credits
 -------
