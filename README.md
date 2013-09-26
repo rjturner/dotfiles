@@ -11,11 +11,29 @@ install
 1. Set up SSH keyless login
 2. git clone git@github.com:rjturner/dotfiles.git
 
+vim plugins
+-----------
+
+Install new vim plugins thus:
+
+    1. cd ~/.vim/bundle
+    2. git submodule add <Clone URL/vim-plugin.git> <plugin>
+    3. git commit -m "Install <plugin> as git submodule"
+
 local
 -----
 
 All configuration files source ~/.NAME.local for host-specific, experimental,
 or non-versioned configurations.
+
+notes
+-----
+
+Vim plugins are managed using Tim Pope's pathogen.git.  In particular, I
+install pathogen as its own submodule (using the procedure above) and then
+manually create a symlink in ~/.vim/autoload:
+
+    ln -s ../bundle/pathogen/autoload/pathogen.vim ~/.vim/autoload/pathogen.git
 
 credits
 -------
