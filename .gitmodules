@@ -7,3 +7,6 @@
 [submodule "vim/bundle/solarized"]
 	path = vim/bundle/solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "vim/bundle/Vim-R-plugin"]
+	path = vim/bundle/Vim-R-plugin
+	url = git@github.com:rjturner/Vim-R-plugin.git
