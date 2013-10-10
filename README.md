@@ -35,6 +35,11 @@ before calling `execute pathogen#infect()`
 
     runtime bundle/pathogen/autoload/pathogen.vim
 
+These plugins are managed as separate submodules.  When cloning the dotfiles
+repository to a new system, it may be necessary to run:
+
+    git submodule update --init
+
 credits
 -------
 
