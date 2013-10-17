@@ -10,3 +10,6 @@
 [submodule "vim/bundle/Vim-R-plugin"]
 	path = vim/bundle/Vim-R-plugin
 	url = git@github.com:rjturner/Vim-R-plugin.git
+[submodule "vim/bundle/surround"]
+	path = vim/bundle/surround
+	url = https://github.com/tpope/vim-surround.git
