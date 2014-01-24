@@ -1,6 +1,7 @@
 #!/bin/sh
 # https://github.com/thoughtbot/dotfiles
 
+echo "Installing dotfiles into ~"
 for name in *; do
   target="$HOME/.$name"
   if [ -e "$target" ]; then
