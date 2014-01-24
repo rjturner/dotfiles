@@ -6,4 +6,6 @@
 # and start a new session
 #
 
-
+if(interactive()){
+  library(vimcom.plus)
+}
