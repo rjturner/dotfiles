@@ -40,6 +40,10 @@ repository to a new system, it may be necessary to run:
 
     git submodule update --init
 
+When pulling changes that include submodule (plugin) updates, run:
+
+    git submodule update
+
 credits
 -------
 
