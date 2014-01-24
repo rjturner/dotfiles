@@ -15,3 +15,6 @@ for name in *; do
     fi
   fi
 done
+
+echo "Installing install.sh into .git/hooks/post-merge"
+ln -s -f ../../install.sh .git/hooks/post-merge
