@@ -40,6 +40,10 @@ set shiftwidth=2                " Set smaller shift width
 " Mappings "
 """"""""""""
 
+" Reformat paragraph
+nnoremap Q gwap
+vnoremap Q gw
+
 """"""""""""""""
 " Autocommands "
 """"""""""""""""
