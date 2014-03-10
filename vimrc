@@ -27,6 +27,9 @@ set shiftwidth=2                " Set smaller shift width
 """""""""""""
 " Variables "
 """""""""""""
+" R Options
+let g:vimrplugin_insert_mode_cmds = 0 " Don't steal backslash
+let g:vimrplugin_assign = 0           " Don't steal underscore
 
 """"""""""""
 " Commands "
