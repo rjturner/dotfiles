@@ -53,6 +53,9 @@ nmap <LocalLeader>kr :call g:SendCmdToR('rm(list=ls(all.names=TRUE)); unlink("ca
 nnoremap Q gwap
 vnoremap Q gw
 
+" Y: yank to end of line
+map Y y$
+
 """"""""""""""""
 " Autocommands "
 """"""""""""""""
