@@ -45,6 +45,9 @@ command! DiffOrig vert new | set bt=nofile | r ++edit # | 0d_
 " Mappings "
 """"""""""""
 
+" Clear knitr cache
+nmap <LocalLeader>kr :call g:SendCmdToR('rm(list=ls(all.names=TRUE)); unlink("cache/*")')<CR>
+
 " Reformat paragraph
 nnoremap Q gwap
 vnoremap Q gw
