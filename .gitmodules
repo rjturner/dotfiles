@@ -16,3 +16,6 @@
 [submodule "vim/bundle/repeat"]
 	path = vim/bundle/repeat
 	url = https://github.com/tpope/vim-repeat.git
+[submodule "vim/bundle/atp_vim"]
+	path = vim/bundle/atp_vim
+	url = https://github.com/coot/atp_vim.git
