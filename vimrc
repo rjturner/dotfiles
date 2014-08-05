@@ -31,6 +31,9 @@ set shiftwidth=2                " Set smaller shift width
 " R Options
 let g:vimrplugin_insert_mode_cmds = 0 " Don't steal backslash
 let g:vimrplugin_assign = 0           " Don't steal underscore
+let vimrplugin_rnowebchunk = 0        " Don't steal greater-than
+let vimrplugin_vsplit = 1             " Split vertically
+let vimrplugin_rconsole_width = 80    " 80 columns wide
 
 """"""""""""
 " Commands "
