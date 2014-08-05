@@ -7,5 +7,5 @@
 #
 
 if(interactive()){
-  library(vimcom.plus)
+  library(vimcom)
 }
